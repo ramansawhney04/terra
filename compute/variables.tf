@@ -5,7 +5,7 @@ variable "key_name" {
 }
 
 variable "public_key_path" {
-    default = "/root/.ssh/id_rsa.pub"
+    default = "/home/ec2-user/.ssh/id_rsa.pub"
 }
 
 variable "subnet_ips" {
